@@ -322,7 +322,7 @@ body.cursor-hover #cursor-ring{border-color:rgba(232,98,42,0.85);}
 .hero-pre{display:flex;align-items:center;gap:16px;margin-bottom:24px;opacity:0;animation:fade-up 0.8s var(--ease-out) 0.2s forwards}
 .hero-pre-line{flex:1;max-width:60px;height:1px;background:var(--teal);opacity:0.6}
 .hero-hl{overflow:hidden;margin-bottom:8px}
-.hero-hl h1{transform:translateY(110%);animation:slide-up 1s var(--ease-out) forwards;font-size:clamp(2.2rem,5vw,5.2rem)}
+.hero-hl h1{transform:translateY(110%);animation:slide-up 1s var(--ease-out) forwards;font-size:clamp(2.2rem,5vw,5.2rem);max-width:100%;text-wrap:balance}
 .hero-hl:nth-child(3) h1{animation-delay:0.1s}
 .hero-hl:nth-child(4) h1{animation-delay:0.18s;color:var(--fog)}
 .hero-sub{max-width:min(620px,95%);margin:28px 0 32px;opacity:0;animation:fade-up 0.8s var(--ease-out) 0.5s forwards}
@@ -962,7 +962,7 @@ footer{background:var(--black);border-top:1px solid rgba(255,255,255,0.05);paddi
         <div class="hero-pre-line"></div>
         <span class="t-label">AI-Powered Back-Office Automation</span>
       </div>
-      <div class="hero-hl"><h1 class="t-display">Your software.<br><span class="g-teal">Already automated.</span></h1></div>
+      <div class="hero-hl"><h1 class="t-display">AI that works <span class="g-teal">inside your ERP.</span></h1></div>
       <p class="t-body hero-sub" style="color:var(--silver)">Optificial-AI connects to any ERP, CRM, or field service platform and turns plain English into completed workflows — no integrations to build, no training required.</p>
       <div class="hero-actions">
         <a href="#how" class="btn-primary">
